@@ -1,5 +1,6 @@
-document.getElementById("texto").innerHTML="Meu Primeiro Texto <b>JS</b>. Usando InnerHTML";
+var idade, eleitor, resultado;
+idade=71;
+eleitor=(idade<18) ? "Não, Eleitor" : "Sim, Eleitor"
 
-document.write ("Meu primeiro texto com document.write");
-
-console.log("Oi isso é um console.log")
+resultado = (idade === 65 || idade === 72);
+alert (resultado);
