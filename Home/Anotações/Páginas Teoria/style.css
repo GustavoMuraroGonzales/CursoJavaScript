@@ -1,0 +1,7 @@
+.inicialbtn, .link {
+    background-color: grey;
+    border: 1px solid grey;
+    margin-top: 20px;
+    text-decoration: none;   
+    color: aliceblue;
+}
