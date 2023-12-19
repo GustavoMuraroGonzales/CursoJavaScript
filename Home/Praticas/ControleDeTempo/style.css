@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+.start {
+    padding: 30px;
+    background-color: green;
+    color:white;
+    border: 1px solid black;
+}
+.stop {
+    padding: 30px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+}
+
+.inicialbtn {
+    background-color: grey;
+    border: 1px solid grey;
+    margin-top: 20px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
