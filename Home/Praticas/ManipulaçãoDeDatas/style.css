@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+.inicialbtn {
+    background-color: grey;
+    border: 1px solid grey;
+    margin-top: 20px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
