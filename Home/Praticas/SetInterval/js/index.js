@@ -2,7 +2,7 @@
 
 function ativarContagem() {
 
-    setInterval(function () {
+    tempo =  setInterval(function () {
         var cronometro = document.getElementById("tempo").innerHTML;
         var soma= parseInt(cronometro) + 1;
         document.getElementById("tempo").innerHTML = soma
@@ -11,5 +11,9 @@ function ativarContagem() {
 }
 
 function pararContagem () {
+    clearInterval(tempo);
+}
 
+function clearContagem() {
+    document.getElementById("tempo").innerHTML = "0";
 }

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SetInterval2</title>
-    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon"/>
+    <title>SetInterval</title>
+    <link rel="shortcut icon" href="../../img/baseline_timer_black_18dp.png" type="image/x-icon"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -14,10 +14,10 @@
     <h1>Controle de Tempo</h1>
     <h2 id="tempo">0</h2>
     <button onclick="ativarContagem()" class="start">Ativar Contagem</button>
-    <button onclick="pararContagem()" class="stop">Parar Contagem</button>
+    <button onclick="pararContagem()" ondblclick="clearContagem()" class="stop">Parar Contagem</button>
     
     <button class="inicialbtn">
-        <a  class="link" href="../index.html">Página Inicial</a>
+        <a  class="link" href="../index.html">Página Anterior</a>
     </button>
     <script src="js/index.js"></script>
 </body>
