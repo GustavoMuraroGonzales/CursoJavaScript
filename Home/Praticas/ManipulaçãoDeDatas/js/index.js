@@ -48,15 +48,15 @@ let miliseg = data.getMilliseconds();
 
 //Comando para pegar a data no padrão Brasileiro (Dia/Mes/Ano)
 let dataBR = data.toLocaleString("pt-br");
-//console.log(dataBR);
+
 
 //Comando para pegar somente a data e não a hora
 let dataBRonly = data.toLocaleString("pt-br", { dateStyle: `short`});
-//console.log(dataBRonly);
+document.getElementById("dataAtual").innerHTML = dataBRonly;
 
 //Comando para pegar somente a hr no padrão PT-BR
 let timeBRonly = data.toLocaleString("pt-br", { timeStyle: `short`});
-//console.log(timeBRonly);
+document.getElementById("timeAtual").innerHTML = timeBRonly;
 
 //Comando para fazer a data no padrão PT-BR usando concatenação
 d = new Date();
@@ -86,4 +86,4 @@ var diaDoNatal = new Date(2023,11,25);
 var diferencaTempo = diaDoNatal.getTime() - dataInicial.getTime();
 
 var diferencaDias = Math.ceil(diferencaTempo / (24 * 60 * 60 * 1000));
-//console.log(diferencaDias);
+document.getElementById("tempoParaONatal").innerHTML = "Faltam " + diferencaDias + " Dias para o Natal" ;
